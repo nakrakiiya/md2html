@@ -320,6 +320,8 @@ EOF
 
 
 # convert and generate file
+echo -n "Converting $SRC_FILE to $DEST_FILE... "
 output_header
 do_convert
 output_footer
+echo "DONE"
